@@ -1,0 +1,323 @@
+@media (max-width:320px){
+    
+  
+  *{padding: 0.1%; margin: 0%;}
+
+html{font-size: 62,5%;}
+
+body {background-color: lightgray;}
+
+h1 {font-size: 5rem;
+text-align: center;
+background-color: grey;
+}
+
+h2 {background-color: burlywood;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+font-size: 4rem;
+}
+
+h3 {background-color: lightblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: brown;
+text-align: center;
+}
+
+.barraDeNavegacion{border: 1px dotted black;
+    background-color: lightgray; 
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;}
+
+.tabla{background-color: rosybrown; 
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px dotted black;}
+
+.resumenDeLaTabla{background-color: lightblue; 
+font-style: normal;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: lighter;
+text-align: center;
+overflow: hidden;
+width: 50%;
+border-top: solid 5px red;
+border-right: solid 10px black;
+border-bottom: solid 7px green;
+border-left: solid 12px yellow;
+margin: 3rem;
+padding: 5rem;}
+
+.contactateConNosotros{background-color:lightblue; 
+font-style: normal;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: lighter;
+font-size: medium;
+text-align: center;
+}
+
+.formularioDeContacto{background-color: lightgreen; 
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+font-size: small;
+text-align: center;
+}
+
+ nav li {
+    display:inline-flex;
+}
+
+.jefesDeObra{
+    width: 50rem;
+}
+
+.planoDeObra{
+    width: 50rem;
+}
+
+nav li {
+    display:inline-flex;
+}
+
+.encabezado{
+    grid-area: encabezado;
+    display: flexbox;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.armaduraDeObra{
+    grid-area: foto1;
+    width: 100%;
+    display:flexbox;
+    justify-content: center;
+    margin: 2px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.descripcionObra1{
+    grid-area: desc1;
+    width: 100%;
+    display:flexbox;
+    justify-content: center;
+    font-size: 30px;
+    margin: 2px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.gruasEnObra{
+    grid-area:foto2;
+    width: 100%;
+    display:flexbox;
+    justify-content: center;
+    margin: 2px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.descripcionObra2{
+    grid-area:desc2;
+    width: 100%;
+    display:flexbox;
+    justify-content: center;
+    font-size: 30px;
+    margin: 2px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.pie{
+    grid-area:pie;
+    display: flexbox;
+    justify-content:flex-start;
+    margin: 50px;
+    font-size: 25px;
+    padding: auto;
+    flex-direction: column;
+}
+
+.clase1{
+    display: grid;
+    height: 2100px;
+    grid-template-areas: 
+    "encabezado"
+    "encabezado"
+    "foto1" 
+    "desc1"
+    "foto2" 
+    "desc2"
+    "pie" 
+    "pie";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 100%;
+    border: 1px solid black;
+}
+}
+
+@media (min-width:768px){
+    
+    *{padding: 0.1%; margin: 0%;}
+
+    html{font-size: 62,5%;}
+    
+    body {background-color: lightgray;}
+    
+    h1 {font-size: 50px;
+    text-align: center;
+    background-color: grey;
+    }
+    
+    h2 {background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    }
+    
+    h3 {background-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    text-align: center;
+    }
+    
+    .barraDeNavegacion{border: 1px dotted black;
+        background-color: lightgray; 
+        font-style: oblique;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red;}
+    
+    .tabla{background-color: rosybrown; 
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        border: 2px dotted black;}
+    
+    .resumenDeLaTabla{background-color: lightblue; 
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    overflow: hidden;
+    width: 50%;
+    border-top: solid 5px red;
+    border-right: solid 10px black;
+    border-bottom: solid 7px green;
+    border-left: solid 12px yellow;
+    margin: 3rem;
+    padding: 5rem;}
+    
+    .contactateConNosotros{background-color:lightblue; 
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    text-align: center;
+    }
+    
+    .formularioDeContacto{background-color: lightgreen; 
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    }
+    
+     nav li {
+        display:inline-flex;
+    }
+    
+    .jefesDeObra{
+        width: 50rem;
+    }
+    
+    .planoDeObra{
+        width: 50rem;
+    }
+    
+    nav li {
+        display:inline-flex;
+    }
+    
+    .encabezado{
+        grid-area: encabezado;
+        display: flexbox;
+        justify-content:flex-start;
+        flex-direction: column;
+    }
+    
+    .armaduraDeObra{
+        grid-area: foto1;
+        width: 100%;
+        display:flexbox;
+        justify-content: center;
+        margin: 2px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .descripcionObra1{
+        grid-area: desc1;
+        width: 100%;
+        display:flexbox;
+        justify-content: center;
+        font-size: 30px;
+        margin: 2px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .gruasEnObra{
+        grid-area:foto2;
+        width: 100%;
+        display:flexbox;
+        justify-content: center;
+        margin: 2px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .descripcionObra2{
+        grid-area:desc2;
+        width: 100%;
+        display:flexbox;
+        justify-content: center;
+        font-size: 30px;
+        margin: 2px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .pie{
+        grid-area:pie;
+        display: flexbox;
+        justify-content:flex-start;
+        margin: 50px;
+        font-size: 25px;
+        padding: auto;
+        flex-direction: column;
+    }
+    
+    .clase1{
+        display: grid;
+        height: 2100px;
+        grid-template-areas: 
+        "encabezado encabezado"
+        "foto1 desc1"
+        "foto2 desc2"
+        "pie pie";
+        grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid black;
+    }
+
+  }
