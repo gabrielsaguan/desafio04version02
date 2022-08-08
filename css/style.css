@@ -10,7 +10,14 @@ body {background-color: lightgray;}
 h1 {font-size: 5rem;
 text-align: center;
 background-color: grey;
+transition: all 2s;
 }
+
+h1:hover {font-size: 15rem;
+    background-color: red;
+    scale: 2;
+    rotate: 5deg;
+    }
 
 h2 {background-color: burlywood;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
